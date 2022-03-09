@@ -201,3 +201,41 @@ const styles = StyleSheet.create({
       marginTop:-150
     }
 });
+
+_________________________________APP.JSON ------NO
+
+{
+  "expo": {
+    "name": "weather",
+    "slug": "weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+ 
+"android":{
+  "package": "com.testuser.weatherapp"
+},
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "ios":{
+      "supportsTablet": true,
+      "bungleIdentifier": "com.testuser.weatherapp"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
